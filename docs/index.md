@@ -1,16 +1,31 @@
-# ToDo List Manager
+---
+layout: home
+hero:
+  name: ToDo List Manager
+  text: An interactive command-line application
+  tagline: Manage your daily tasks efficiently, right from your terminal.
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /guide/getting-started
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/your-username/todo_list # Replace with your GitHub repo URL
+features:
+  - icon: '🚀'
+    title: Interactive CLI
+    details: Navigate and manage tasks directly from your command line with a responsive interface.
+  - icon: '✅'
+    title: Comprehensive Task Management
+    details: Easily add, edit, mark as complete, and delete your ToDo items.
+  - icon: '💾'
+    title: Persistent Data Storage
+    details: All your tasks are automatically saved and loaded from a local `todos.json` file.
+  - icon: '🛠️'
+    title: Customizable & Extensible
+    details: Built with Ink and TypeScript, offering a simple and extensible codebase for future enhancements.
+---
 
-Welcome to the official documentation for the **ToDo List Manager**, an interactive command-line application designed to help you manage your daily tasks efficiently.
+Welcome to the official documentation for the **ToDo List Manager**.
 
 Built with [Ink](https://term.ink/) and [TypeScript](https://www.typescriptlang.org/), this CLI tool provides a seamless and intuitive experience directly within your terminal.
-
-## Key Features
-
--   **Interactive Interface**: Navigate and manage tasks directly from your command line.
--   **Task Management**: Easily add, edit, complete, and delete your ToDo items.
--   **Persistent Data**: All your tasks are automatically saved and loaded from a local `todos.json` file, ensuring your data is never lost.
--   **Customizable**: Simple and extensible codebase for future enhancements.
-
-## Get Started
-
-Ready to organize your tasks? Head over to the [Getting Started](/guide/getting-started) guide to set up the application and begin managing your ToDos.

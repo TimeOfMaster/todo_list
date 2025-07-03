@@ -55,6 +55,14 @@
   --vp-c-link: var(--ctp-sapphire);
   --vp-c-link-hover: var(--ctp-blue);
 
+  /* Buttons */
+  --vp-button-brand-bg: var(--ctp-mauve);
+  --vp-button-brand-text: var(--ctp-crust);
+  --vp-button-brand-hover-bg: var(--ctp-pink);
+  --vp-button-alt-bg: var(--ctp-surface0);
+  --vp-button-alt-text: var(--ctp-text);
+  --vp-button-alt-hover-bg: var(--ctp-surface1);
+
   /* Customizing specific elements */
   .VPHomeHero .name .text {
     background: -webkit-linear-gradient(120deg, var(--ctp-mauve), var(--ctp-pink));
@@ -120,6 +128,14 @@ html.dark {
   /* Links */
   --vp-c-link: var(--ctp-sapphire);
   --vp-c-link-hover: var(--ctp-blue);
+
+  /* Buttons */
+  --vp-button-brand-bg: var(--ctp-mauve);
+  --vp-button-brand-text: var(--ctp-crust);
+  --vp-button-brand-hover-bg: var(--ctp-pink);
+  --vp-button-alt-bg: var(--ctp-surface0);
+  --vp-button-alt-text: var(--ctp-text);
+  --vp-button-alt-hover-bg: var(--ctp-surface1);
 
   /* Customizing specific elements */
   .VPHomeHero .name .text {
