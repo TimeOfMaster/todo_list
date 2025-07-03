@@ -2,7 +2,6 @@
   "name": "todo_list",
   "version": "1.0.0",
   "type": "module",
-  
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,9 +11,9 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  
   "dependencies": {
     "ink": "^6.0.1",
+    "ink-text-input": "^6.0.0",
     "react": "^19.1.0"
   },
   "devDependencies": {

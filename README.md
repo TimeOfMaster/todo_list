@@ -32,6 +32,7 @@ npm start
 ### Controls
 
 - `n`: Add a new task
+- `e`: Edit the selected task
 - `d`: Delete the selected task
 - `Enter`: Toggle completion status of the selected task
 - `Up/Down Arrow`: Navigate through tasks
