@@ -23,7 +23,6 @@ const App = () => {
         if (fs.existsSync(TODO_FILE)) {
             const data = fs.readFileSync(TODO_FILE, 'utf8');
             setTodos(JSON.parse(data));
-            console.log('Loaded todos:', JSON.parse(data));
         }
     }, []);
 
@@ -103,7 +102,9 @@ const App = () => {
 
     return (
         <Box flexDirection="column">
-            <Text>ToDo List</Text>
+            <Text color="#cba6f7" bold>ToDo List</Text>
+            <Text>──────────────</Text>
+            <Text></Text>
             {mode !== 'view' ? (
                 <TextInput
                     value={inputValue}
