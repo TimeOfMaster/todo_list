@@ -1,0 +1,64 @@
+:root {
+  /* Catppuccin Mocha Palette */
+  --ctp-rosewater: #f5e0dc;
+  --ctp-flamingo: #f2cdcd;
+  --ctp-pink: #f5c2e7;
+  --ctp-mauve: #cba6f7;
+  --ctp-red: #f38ba8;
+  --ctp-maroon: #eba0ac;
+  --ctp-peach: #fab387;
+  --ctp-yellow: #f9e2af;
+  --ctp-green: #a6e3a1;
+  --ctp-teal: #94e2d5;
+  --ctp-sky: #74c7ec;
+  --ctp-sapphire: #89b4fa;
+  --ctp-blue: #89b4fa;
+  --ctp-lavender: #b4befe;
+
+  --ctp-text: #cdd6f4;
+  --ctp-subtext1: #bac2de;
+  --ctp-subtext0: #a6adc8;
+  --ctp-overlay2: #9399b2;
+  --ctp-overlay1: #7f849c;
+  --ctp-overlay0: #6c7086;
+  --ctp-surface2: #585b70;
+  --ctp-surface1: #45475a;
+  --ctp-surface0: #313244;
+  --ctp-base: #1e1e2e;
+  --ctp-mantle: #181825;
+  --ctp-crust: #11111b;
+
+  /* Apply Catppuccin colors to VitePress defaults */
+  --vp-c-bg: var(--ctp-base);
+  --vp-c-text-1: var(--ctp-text);
+  --vp-c-text-2: var(--ctp-subtext1);
+  --vp-c-text-3: var(--ctp-subtext0);
+  --vp-c-brand-1: var(--ctp-mauve);
+  --vp-c-brand-2: var(--ctp-pink);
+  --vp-c-brand-3: var(--ctp-flamingo);
+
+  --vp-c-border: var(--ctp-surface1);
+  --vp-c-divider: var(--ctp-surface1);
+
+  --vp-c-gray-1: var(--ctp-overlay2);
+  --vp-c-gray-2: var(--ctp-overlay1);
+  --vp-c-gray-3: var(--ctp-overlay0);
+
+  --vp-c-bg-alt: var(--ctp-mantle);
+  --vp-c-bg-soft: var(--ctp-surface0);
+
+  /* Code blocks */
+  --vp-code-block-bg: var(--ctp-crust);
+  --vp-code-block-color: var(--ctp-text);
+
+  /* Links */
+  --vp-c-link: var(--ctp-sapphire);
+  --vp-c-link-hover: var(--ctp-blue);
+
+  /* Customizing specific elements */
+  .VPHomeHero .name .text {
+    background: -webkit-linear-gradient(120deg, var(--ctp-mauve), var(--ctp-pink));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
