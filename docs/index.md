@@ -10,7 +10,7 @@ hero:
       link: /guide/getting-started
     - theme: alt
       text: View on GitHub
-      link: https://github.com/your-username/todo_list # Replace with your GitHub repo URL
+      link: https://github.com/TimeOfMaster/todo_list
 features:
   - icon: '🚀'
     title: Interactive CLI
