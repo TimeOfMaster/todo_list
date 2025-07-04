@@ -1,0 +1,146 @@
+:root {
+  /* Catppuccin Latte Palette (Light Mode - Default) */
+  --ctp-rosewater: #dc8a78;
+  --ctp-flamingo: #dd7878;
+  --ctp-pink: #ea769e;
+  --ctp-mauve: #8839ef;
+  --ctp-red: #d20f39;
+  --ctp-maroon: #e64553;
+  --ctp-peach: #fe640b;
+  --ctp-yellow: #df8e1d;
+  --ctp-green: #40a02b;
+  --ctp-teal: #179299;
+  --ctp-sky: #04a5e5;
+  --ctp-sapphire: #209fb5;
+  --ctp-blue: #1e66f5;
+  --ctp-lavender: #7287fd;
+
+  --ctp-text: #4c4f69;
+  --ctp-subtext1: #5c5f77;
+  --ctp-subtext0: #6c6f85;
+  --ctp-overlay2: #7c7f93;
+  --ctp-overlay1: #8c8fa1;
+  --ctp-overlay0: #9ca0b0;
+  --ctp-surface2: #acb0be;
+  --ctp-surface1: #bcc0cc;
+  --ctp-surface0: #ccd0da;
+  --ctp-base: #eff1f5;
+  --ctp-mantle: #e6e9ed;
+  --ctp-crust: #dce0e8;
+
+  /* Apply Catppuccin Latte colors to VitePress defaults */
+  --vp-c-bg: var(--ctp-base);
+  --vp-c-text-1: var(--ctp-text);
+  --vp-c-text-2: var(--ctp-subtext1);
+  --vp-c-text-3: var(--ctp-subtext0);
+  --vp-c-brand-1: var(--ctp-mauve);
+  --vp-c-brand-2: var(--ctp-pink);
+  --vp-c-brand-3: var(--ctp-flamingo);
+
+  --vp-c-border: var(--ctp-surface1);
+  --vp-c-divider: var(--ctp-surface1);
+
+  --vp-c-gray-1: var(--ctp-overlay2);
+  --vp-c-gray-2: var(--ctp-overlay1);
+  --vp-c-gray-3: var(--ctp-overlay0);
+
+  --vp-c-bg-alt: var(--ctp-mantle);
+  --vp-c-bg-soft: var(--ctp-surface0);
+
+  /* Code blocks */
+  --vp-code-block-bg: var(--ctp-crust);
+  --vp-code-block-color: var(--ctp-text);
+
+  /* Links */
+  --vp-c-link: var(--ctp-sapphire);
+  --vp-c-link-hover: var(--ctp-blue);
+
+  /* Buttons */
+  --vp-button-brand-bg: var(--ctp-mauve);
+  --vp-button-brand-text: var(--ctp-crust);
+  --vp-button-brand-hover-bg: var(--ctp-pink);
+  --vp-button-alt-bg: var(--ctp-surface0);
+  --vp-button-alt-text: var(--ctp-text);
+  --vp-button-alt-hover-bg: var(--ctp-surface1);
+
+  /* Customizing specific elements */
+  .VPHomeHero .name .text {
+    background: -webkit-linear-gradient(120deg, var(--ctp-mauve), var(--ctp-pink));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+html.dark {
+  /* Catppuccin Mocha Palette (Dark Mode) */
+  --ctp-rosewater: #f5e0dc;
+  --ctp-flamingo: #f2cdcd;
+  --ctp-pink: #f5c2e7;
+  --ctp-mauve: #cba6f7;
+  --ctp-red: #f38ba8;
+  --ctp-maroon: #eba0ac;
+  --ctp-peach: #fab387;
+  --ctp-yellow: #f9e2af;
+  --ctp-green: #a6e3a1;
+  --ctp-teal: #94e2d5;
+  --ctp-sky: #74c7ec;
+  --ctp-sapphire: #89b4fa;
+  --ctp-blue: #89b4fa;
+  --ctp-lavender: #b4befe;
+
+  --ctp-text: #cdd6f4;
+  --ctp-subtext1: #bac2de;
+  --ctp-subtext0: #a6adc8;
+  --ctp-overlay2: #9399b2;
+  --ctp-overlay1: #7f849c;
+  --ctp-overlay0: #6c7086;
+  --ctp-surface2: #585b70;
+  --ctp-surface1: #45475a;
+  --ctp-surface0: #313244;
+  --ctp-base: #1e1e2e;
+  --ctp-mantle: #181825;
+  --ctp-crust: #11111b;
+
+  /* Apply Catppuccin Mocha colors to VitePress defaults */
+  --vp-c-bg: var(--ctp-base);
+  --vp-c-text-1: var(--ctp-text);
+  --vp-c-text-2: var(--ctp-subtext1);
+  --vp-c-text-3: var(--ctp-subtext0);
+
+  --vp-c-brand-1: var(--ctp-mauve);
+  --vp-c-brand-2: var(--ctp-pink);
+  --vp-c-brand-3: var(--ctp-flamingo);
+
+  --vp-c-border: var(--ctp-surface1);
+  --vp-c-divider: var(--ctp-surface1);
+
+  --vp-c-gray-1: var(--ctp-overlay2);
+  --vp-c-gray-2: var(--ctp-overlay1);
+  --vp-c-gray-3: var(--ctp-overlay0);
+
+  --vp-c-bg-alt: var(--ctp-mantle);
+  --vp-c-bg-soft: var(--ctp-surface0);
+
+  /* Code blocks */
+  --vp-code-block-bg: var(--ctp-crust);
+  --vp-code-block-color: var(--ctp-text);
+
+  /* Links */
+  --vp-c-link: var(--ctp-sapphire);
+  --vp-c-link-hover: var(--ctp-blue);
+
+  /* Buttons */
+  --vp-button-brand-bg: var(--ctp-mauve);
+  --vp-button-brand-text: var(--ctp-crust);
+  --vp-button-brand-hover-bg: var(--ctp-pink);
+  --vp-button-alt-bg: var(--ctp-surface0);
+  --vp-button-alt-text: var(--ctp-text);
+  --vp-button-alt-hover-bg: var(--ctp-surface1);
+
+  /* Customizing specific elements */
+  .VPHomeHero .name .text {
+    background: -webkit-linear-gradient(120deg, var(--ctp-mauve), var(--ctp-pink));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
