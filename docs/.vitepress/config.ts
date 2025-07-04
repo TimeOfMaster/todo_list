@@ -1,6 +1,7 @@
 import { type DefaultTheme, defineConfig } from 'vitepress';
 
 export default defineConfig({
+  base: '/todo_list/',
   lang: 'en-US',
   title: 'ToDo List Manager',
   description: 'An interactive command-line ToDo list manager.',
