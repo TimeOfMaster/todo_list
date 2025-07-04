@@ -1,8 +1,9 @@
 
 import React, {useState, useEffect} from 'react';
-import {Box, Text, useInput, useApp} from 'ink';
+import {Box, Text, useInput, useApp, useStdout} from 'ink';
 import TextInput from 'ink-text-input';
 import fs from 'fs';
+import Border from './border.js';
 
 const TODO_FILE = 'todos.json';
 
@@ -18,6 +19,7 @@ const App = () => {
     const [inputValue, setInputValue] = useState('');
     const [mode, setMode] = useState<'view' | 'adding' | 'editing'>('view');
     const {exit} = useApp();
+    const {stdout} = useStdout();
 
     useEffect(() => {
         if (fs.existsSync(TODO_FILE)) {
@@ -100,11 +102,14 @@ const App = () => {
         setMode('view');
     };
 
+    const width = stdout.columns - 4;
+    const line = '─'.repeat(width > 0 ? width : 0);
+
     return (
-        <Box flexDirection="column">
+        <Border>
             <Text color="#cba6f7" bold>ToDo List</Text>
-            <Text>──────────────</Text>
-            <Text></Text>
+            <Text>{line}</Text>
+            <Text> </Text>
             {mode !== 'view' ? (
                 <TextInput
                     value={inputValue}
@@ -130,7 +135,7 @@ const App = () => {
                     Controls: (n)ew, (e)dit, (d)elete, (enter) toggle, (up/down) navigate, (esc) exit
                 </Text>
             </Box>
-        </Box>
+        </Border>
     );
 };
 

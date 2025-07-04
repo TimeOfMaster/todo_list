@@ -25,7 +25,3 @@ features:
     title: Customizable & Extensible
     details: Built with Ink and TypeScript, offering a simple and extensible codebase for future enhancements.
 ---
-
-Welcome to the official documentation for the **ToDo List Manager**.
-
-Built with [Ink](https://term.ink/) and [TypeScript](https://www.typescriptlang.org/), this CLI tool provides a seamless and intuitive experience directly within your terminal.
