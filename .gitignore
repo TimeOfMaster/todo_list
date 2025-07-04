@@ -1,4 +1,5 @@
 node_modules/
-dist/
+/dist/
+!docs/.vitepress/dist/
 todos.json
 .env
