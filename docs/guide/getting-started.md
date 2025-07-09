@@ -23,40 +23,6 @@ To get started, you'll need Node.js and npm (Node Package Manager) installed on 
     npm install
     ```
 
-## Usage
-
-Once installed, you can launch the ToDo List Manager directly from your terminal:
-
-```bash
-npm start
-```
-
-The application will open in your terminal, displaying your current ToDo list.
-
-### Interactive Controls
-
-The ToDo List Manager is designed to be fully interactive. Use the following keys to manage your tasks:
-
--   `n` (New Task): Press `n` to enter a new task. A prompt will appear at the bottom of the screen. Type your task and press `Enter` to add it to the list.
-
-    ```
-    Enter new task... _
-    ```
-
--   `e` (Edit Task): Select a task using the `Up` or `Down` arrow keys, then press `e` to edit its text. The selected task's text will appear in the input prompt. Modify the text and press `Enter` to save changes.
-
-    ```
-    Edit task... [Your Task Text]_
-    ```
-
--   `d` (Delete Task): Select the task you wish to delete using the `Up` or `Down` arrow keys, then press `d`. The selected task will be immediately removed from the list.
-
--   `Enter` (Toggle Completion): With a task selected, press `Enter` to toggle its completion status. A `[ ]` indicates an incomplete task, while `[x]` indicates a completed task.
-
--   `Up/Down Arrow` (Navigate): Use the arrow keys to move the selection cursor up and down your list of tasks.
-
--   `Esc` (Exit): Press the `Esc` key at any time to exit the application. If you are in the middle of adding or editing a task, pressing `Esc` will cancel the current operation and return to the main view.
-
 ## Data Persistence
 
 Your ToDo list data is automatically saved to a file named `todos.json` in the root directory of the project. This ensures that your tasks are preserved even after you close the application.
@@ -68,12 +34,13 @@ Your ToDo list data is automatically saved to a file named `todos.json` in the r
     ```json
     [
       {
-        "id": 1678886400000,
+        "id": 1,
         "text": "Buy groceries",
-        "completed": false
+        "completed": false,
+        "dueDate": "2025-12-20"
       },
       {
-        "id": 1678886460000,
+        "id": 2,
         "text": "Walk the dog",
         "completed": true
       }

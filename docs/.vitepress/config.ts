@@ -42,7 +42,8 @@ function nav(): DefaultTheme.NavItem[] {
 
 function sidebarGuide(): DefaultTheme.SidebarItem[] {
   return [
-    { text: 'Getting Started', link: '/guide/getting-started' },
+    { text: 'Getting Started', link: 'getting-started' },
+    { text: 'Usage', link: 'usage' },
   ];
 }
 
